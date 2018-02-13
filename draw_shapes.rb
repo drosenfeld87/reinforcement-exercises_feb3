@@ -13,4 +13,5 @@ def draw_shape(options)
 end
 
 # puts shape "#{*}"
+# puts draw_shape{(:rows => 4) (:cols => 4)}
 puts draw_shape{(:rows => 4) (:cols => 4)}
