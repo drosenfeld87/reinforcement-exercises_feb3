@@ -1,5 +1,5 @@
 def draw_shape(options)
-  shape = "*"
+  shape = ""
 
   options[:rows].times do |r|
     options[:cols].times do |c|
@@ -12,6 +12,9 @@ def draw_shape(options)
 
 end
 
-# puts shape "#{*}"
-# puts draw_shape{(:rows => 4) (:cols => 4)}
-puts draw_shape{(:rows => 4) (:cols => 4)}
+int_option = {:rows => 3, :cols => 10, :char => "0"}
+asterisk_option = {:rows => 4, :cols => 4, :char => "*"}
+
+
+puts draw_shape(int_option)
+puts draw_shape(asterisk_option)
